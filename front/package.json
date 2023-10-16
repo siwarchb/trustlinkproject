@@ -1,0 +1,79 @@
+{
+  "name": "vue-material-admin",
+  "version": "1.0.5",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-vue-calendars": "^20.3.49",
+    "apexcharts": "^3.36.3",
+    "axios": "^1.1.3",
+    "bcryptjs": "^2.4.3",
+    "core-js": "^3.10.1",
+    "css-loader": "^4.3.0",
+    "font-awesome": "^4.7.0",
+    "formBuilder": "^3.8.3",
+    "highcharts": "^8.2.2",
+    "highcharts-vue": "^1.3.5",
+    "jquery": "^3.6.1",
+    "jspdf": "^2.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "moment": "^2.29.4",
+    "sweetalert2": "^11.6.15",
+    "v-form-builder": "^1.3.0",
+    "vue": "^2.7.13",
+    "vue-apexcharts": "^1.6.1",
+    "vue-barcode": "^1.3.0",
+    "vue-html-to-paper": "^1.4.4",
+    "vue-router": "^3.5.1",
+    "vue-toastification": "^1.7.11",
+    "vue2-google-maps": "^0.10.7",
+    "vue2-perfect-scrollbar": "^1.5.0",
+    "vuejs-stepper": "^0.2.4",
+    "vuetify": "^2.4.9",
+    "vuetrend": "^0.3.4",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "@types/jquery": "^3.5.16",
+    "@vue/cli-plugin-babel": "~4.5.7",
+    "@vue/cli-plugin-eslint": "~4.5.7",
+    "@vue/cli-service": "~4.5.7",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.2",
+    "eslint": "^7.10.0",
+    "eslint-plugin-vue": "^7.0.1",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.0.3",
+    "vue-cli-plugin-vuetify": "~2.0.7",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify-loader": "^1.6.0",
+    "webpack": "^4.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-unused-vars": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

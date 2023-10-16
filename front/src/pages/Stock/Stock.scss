@@ -1,0 +1,10 @@
+@import 'src/styles/variables';
+
+.notification-page {
+  .v-chip {
+    height: 45px;
+    .v-chip__content {
+      font-size: 14px;
+    }
+  }
+}
